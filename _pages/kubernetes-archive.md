@@ -32,7 +32,6 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
      title: "Placeholder 4"
      excerpt: "This is some sample content that goes here with **Markdown** formatting."
-	 url: KubernetesPart2.md
 
 ---
 
