@@ -40,22 +40,20 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/kuberneties/Day5.png
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "Create your Deployment and understand the Pod definition file."
-    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
+    alt: "placeholder image 5"
+    title: "Create your First Deployment."
+    excerpt: "In this module, we will go through the basics of Deployment and create deployment."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart5_Deployment-1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 4"
-    title: "Placeholder 4"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2//"
+  - image_path: /assets/images/kuberneties/Day6.png
+    alt: "placeholder image 6"
+    title: "Deployment Demo."
+    excerpt: "Here we will play with the deployment. We will create, verify, scale-up, scale down and upgrade.."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart5_Deployment-2/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 ---
 ## Kubernetes in 7 days? In a week !!!
 
