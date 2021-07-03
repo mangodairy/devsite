@@ -4,7 +4,7 @@ layout: splash
 permalink: /Kubernetes/
 header:
   overlay_color: "#80aaff              "
-  overlay_filter: "0.5"
+  overlay_filter: "0"
   overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: "Here you will find different series which cover the basic, intermediate and advanced discussion series of Kubernetes technology. I also try to cover a few exam preparation steps in one of the series. "
 collection: Kubernetes learning series. 
