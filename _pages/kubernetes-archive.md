@@ -3,7 +3,7 @@ title: Kubernetes
 layout: splash
 permalink: /Kubernetes/
 header:
-  overlay_color: "#000"
+  overlay_color: "#80aaff              "
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: "This is series of kuberneties learning series ."
@@ -38,7 +38,6 @@ feature_row:
     btn_class: "btn--primary"
 ---
 ## Kubernetes in 7 days? In a week !!!
-
 
 Kubernetes in 7 days( Seven modules, **if you do not have time in your day to day work spent 10 minutes going through this,** so that you will get a basic understanding of Kubernetes in a week time ). The Kubernetes is well documented in [kubernetes.io web site ](https://kubernetes.io/) but it is little difficult for beginners to get through that documentation. I tried my level best to simplify the concept.
 {: style="text-align: justify;"}
