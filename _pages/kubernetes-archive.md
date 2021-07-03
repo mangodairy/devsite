@@ -25,9 +25,6 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-collection: Kubernetes
-entries_layout: grid
-classes: wide
 ---
 ## Kubernetes in 7 days? In a week !!!
 
