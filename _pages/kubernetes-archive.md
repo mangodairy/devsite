@@ -18,11 +18,10 @@ feature_row:
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2//"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+  - image_path: /assets/images/kuberneties/Day5.png
     alt: "placeholder image 2"
     title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Create your Deployment and understand the Pod definition file."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
