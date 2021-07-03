@@ -17,6 +17,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+	url: /_Kubernetes/KubernetesPart2.md	
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
@@ -28,9 +29,14 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+     title: "Placeholder 4"
+     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+	 url: KubernetesPart2.md
 
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
