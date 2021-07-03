@@ -17,7 +17,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2//"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
