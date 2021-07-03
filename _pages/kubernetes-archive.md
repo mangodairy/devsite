@@ -46,11 +46,32 @@ feature_row:
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart5_Deployment-1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/kuberneties/Day6.png
+  - image_path: /assets/images/kuberneties/Day5.png
     alt: "placeholder image 6"
     title: "Deployment Demo."
     excerpt: "Here we will play with the deployment. We will create, verify, scale-up, scale down and upgrade.."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart5_Deployment-2/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day6.png
+    alt: "placeholder image 7"
+    title: "What is a Service?"
+    excerpt: "Make the application access to the external world through the Kubernetes service."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart6_service-1/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day6.png
+    alt: "placeholder image 8"
+    title:  "Service Demo"
+    excerpt: "In this demo, we will expose an Nginx deployment outside the cluster with the help of the ClusterIP service."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart6_service-2/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day7.png
+    alt: "placeholder image 8"
+    title:  "Kubernetes Persistent Volume"
+    excerpt: "In this module, we will learn how to preserve data in a pod with the help of Persistent Volumes."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart7_PersistentVolume/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
