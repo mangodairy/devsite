@@ -11,11 +11,32 @@ collection: Kubernetes
 entries_layout: grid
 classes: wide
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2//"
+  - image_path: /assets/images/kuberneties/Day1.png
+    alt: "placeholder image 2"
+    title: "Introduction to Kubernetes "
+    excerpt: "In this module, we are covering the basic structure of Kubernetes."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day2.png
+    alt: "placeholder image 2"
+    title: "Kubernetes  Architecture Control Plane Components"
+    excerpt: "In this module, we will play with the master node and the pods running on it."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day3.png
+    alt: "placeholder image 3"
+    title: "Kubernetes  Architecture Worker Node Components"
+    excerpt: "In this module, we will play with the worker node, pods and the other components running on it."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart3/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day4.png
+    alt: "placeholder image 4"
+    title: "Create your First Pod."
+    excerpt: "In this module, we will go through the basics of pods and understand the structure of pod definition."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart4_Pods/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/kuberneties/Day5.png
