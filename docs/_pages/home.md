@@ -10,7 +10,7 @@ header:
       url: "/docs/quick-start-guide/"
 excerpt: >
   This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. <br />
-  <small><Hello! I am Rajith</a></small>
+  <small>Hello! I am Rajith</small>
 collection: Welcome!
 entries_layout: grid
 feature_row:
