@@ -1,10 +1,10 @@
 ---
-title: "Create your First Pod."
+title: "Pod definition file."
 excerpt: "In this module, we will go through the basics of pods and understand the structure of pod definition."
 header:
   overlay_color: "#80aaff              "
   teaser: /assets/images/kuberneties/Day4.png
-  excerpt: "Create your First Pod and understand the Pod definition file."
+  excerpt: "Understand the Pod definition file."
   show_overlay_excerpt: false
   show_date: true
 sidebar:
