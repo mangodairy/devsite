@@ -9,9 +9,10 @@ header:
     - label: "<i class='fas fa-download'></i> About me"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  Hello! I am Rajith<br />
-  <small>This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. <small><br />
- collection: Welcome!
+  <small>Hello! I am Rajith</small><br />
+  This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. <br />
+  Test
+collection: Welcome!
 entries_layout: grid
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
