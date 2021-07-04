@@ -111,6 +111,6 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 {% include feature_row %}
 
-{% include feature_row2 %}
+{% include feature_row id="feature_row2" type="left" %}
 
 
