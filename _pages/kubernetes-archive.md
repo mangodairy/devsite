@@ -96,8 +96,8 @@ feature_row2:
 
 # Kubernetes learning series.
 
-[ 1.Kubernetes in 7 days? In a week !!](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-)
-[2.Walking through the pods. ](https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--%EF%B8%8F)
+1. [ Kubernetes in 7 days? In a week !!](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-)
+2. [Walking through the pods. ](https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--%EF%B8%8F)
 
 ## Kubernetes in 7 days? In a week !!!
 
