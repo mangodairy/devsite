@@ -11,6 +11,7 @@ header:
 excerpt: >
   This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. <br />
   <small><a Latest release v4.23.0</a></small>
+collection: Welcome!
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
