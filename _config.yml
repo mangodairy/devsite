@@ -98,9 +98,9 @@ author:
   bio              : "My blog posts."
   location         : "Kerala"
   links:
-     #- label: "Your Website"
+    - label: "MySite"
      # icon: "fas fa-fw fa-link"
-     # url: "https://your-site.com"
+      url: "https://rajith.in"
     - label: "FaceBook"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://www.facebook.com/rajithpram"
@@ -187,8 +187,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-#paginate_path: /page:num/
-paginate_path: /blog/page:num
+paginate_path: /page:num/
+#paginate_path: /blog/page:num
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
