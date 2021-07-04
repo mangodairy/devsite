@@ -93,6 +93,12 @@ feature_row2:
     btn_class: "btn--primary"
 
 ---
+
+# Kubernetes learning series.
+
+[ 1.Kubernetes in 7 days? In a week !!](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-)
+[2.Walking through the pods. ](https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--%EF%B8%8F)
+
 ## Kubernetes in 7 days? In a week !!!
 
 Kubernetes in 7 days( Seven modules, **if you do not have time in your day to day work, spent 10 minutes going through this,** so that you will get a basic understanding of Kubernetes in a week time ). The Kubernetes is well documented in [kubernetes.io web site ](https://kubernetes.io/) but it is little difficult for beginners to get through that documentation. I tried my level best to simplify the concept.
@@ -113,6 +119,6 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 ## Walking through the pods.  🚶🚶🏼🚶🏽🚶🏾‍♂️🚶🏿 
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="left" %} 
 
 
