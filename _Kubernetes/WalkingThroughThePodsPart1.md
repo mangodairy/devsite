@@ -161,6 +161,39 @@ metadata:
       env : prod  
 ```
 
+**spec** Now we came to the important part of the definition file 'spec'.
+{: style="text-align: justify;"}
+
+It is the specification of the container inside the pod.
+We need to specify the name of the container, the image used to create the container. And if need additional parameters like command, arguments and a few more parameters can be added here. If you have multiple containers within the pod, then each container specification should be mentioned here. 
+{: style="text-align: justify;"}
+```yaml
+Spec:
+    # The container specification section starts here
+   containers:
+   - name: my-first-pod
+     image: nginx
+    # The container specification section ends here
+```
+
+We will form a pod definition by combining all the above details and create a pod definition file. 
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-pod
+  labels:
+      type : web
+      env : prod  
+Spec:
+    # The container specification section starts here
+   containers:
+   - name: my-first-pod
+     image: nginx
+    # The container specification section ends here
+```
+
 {: .notice--success}
 {: style="text-align: justify;"}
 
