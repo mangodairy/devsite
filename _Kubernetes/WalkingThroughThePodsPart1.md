@@ -136,16 +136,13 @@ apiVersion: v1
 kind: Pod
 ```
 
-What about the other field metadata and spec?
-{: style="text-align: justify;"}
-
 What about the other field metadata and spec? It is specified there but, it is not clear. 
 {: style="text-align: justify;"}
 
-**metadata**  [We will follow the link given in the output command. 🏃🏼](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata)
+**metadata**  [We will follow the link given in the command output. 🏃🏼](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata)
 {: style="text-align: justify;"}
 
-As the command output shows, the detailed explanation is available under the given link. But now do not require all of those?
+As the command output shows, the detailed explanation is available under the given link. But do we need all of those? No, we will take only the required fields from it. 
 {: style="text-align: justify;"}
 
 
