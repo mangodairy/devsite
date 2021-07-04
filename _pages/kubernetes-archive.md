@@ -12,7 +12,7 @@ entries_layout: grid
 classes: wide
 feature_row:
   - image_path: /assets/images/kuberneties/Day1.png
-    alt: "placeholder image 2"
+    alt: "placeholder image 1"
     title: "Introduction to Kubernetes "
     excerpt: "In this module, we are covering the basic structure of Kubernetes."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
@@ -75,6 +75,22 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+feature_row2:
+  - image_path: /assets/images/kuberneties/Day1.png
+    alt: "placeholder image 1"
+    title: "Pod "
+    excerpt: "In this module, we are covering the basic of Pod."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Day2.png
+    alt: "placeholder image 2"
+    title: "Kubernetes  Architecture Control Plane Components"
+    excerpt: "In this module, we will play with the master node and the pods running on it."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 ---
 ## Kubernetes in 7 days? In a week !!!
 
@@ -95,3 +111,12 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 {% include feature_row %}
 
+## Walking through the pods.
+
+Here we are doing a deep drive in to the pods.
+{: style="text-align: justify;"}
+
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row2 %}
