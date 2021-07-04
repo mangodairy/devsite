@@ -109,9 +109,9 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 {: style="text-align: justify;"}
 
 
-## Walking through the pods.
-
 {% include feature_row %}
+
+## Walking through the pods.  🚶🚶🏼🚶🏽🚶🏾‍♂️🚶🏿 
 
 {% include feature_row id="feature_row2" type="left" %}
 
