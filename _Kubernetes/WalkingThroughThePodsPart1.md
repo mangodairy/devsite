@@ -72,7 +72,7 @@ In simple words, a pod is a box that contains one or more containers. Pod share 
 
 ## Pod definition file 
 
-Kubernetes def contain four top-level fields.
+Kubernetes definition file contain four top-level fields.
 {: style="text-align: justify;"}
 
 ```yaml
@@ -83,7 +83,8 @@ metadata:
 Spec:
 ```
 How do we get this information? 🤔 
-**kubectl explain pod**, execute this command you will get the details of it.
+{: style="text-align: justify;"}
+Execute the command, **kubectl explain pod** you will get the details.
 {: style="text-align: justify;"}
 
 ```yaml
@@ -126,9 +127,42 @@ rajith@k8s-master:~$
 From the above command, we got ,
 
 **KIND:     Pod**
+{: style="text-align: justify;"}
 **VERSION:  v1**
+{: style="text-align: justify;"}
+
+```yaml
+apiVersion: v1
+kind: Pod
+```
+
 What about the other field metadata and spec?
 {: style="text-align: justify;"}
+
+What about the other field metadata and spec? It is specified there but, it is not clear. 
+{: style="text-align: justify;"}
+
+**metadata**  [We will follow the link given in the output command. 🏃🏼](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata)
+{: style="text-align: justify;"}
+
+As the command output shows, the detailed explanation is available under the given link. But now do not require all of those?
+{: style="text-align: justify;"}
+
+
+* Name:- A string that uniquely identifies this object within the current namespace. 
+* Namespace:- It is to isolate the objects in a Kubernetes environment. We will talk about the namespace more in another series.
+* Labels:- A map of string keys and values that can be used to organize and categorize objects. It is to identify the 'object' in the different categories. For example, web servers can be labelled with "type: web", the production servers can be labelled with "env: prod".  
+{: style="text-align: justify;"}
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-pod
+  labels:
+    type : web
+	env : prod  
+```
 
 {: .notice--success}
 {: style="text-align: justify;"}
@@ -138,6 +172,8 @@ What about the other field metadata and spec?
 <div markdown="0"><a href="#" class="btn btn--success">Go back to the Top of the page </a></div>     
 
  [Info Button Text](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-){: .btn .btn--info}
+ 
+
 
 
 
