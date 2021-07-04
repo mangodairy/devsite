@@ -74,7 +74,9 @@ In simple words, a pod is a box that contains one or more containers. Pod share 
 
 [Our next module is on deployment, Click here](https://rajith.in/Kubernetes/KubernetesPart5_Deployment-1/)
 
-<div markdown="0"><a href="#" class="btn btn--success">Go back to the Top of the page </a></div>      [Info Button Text](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-){: .btn .btn--info}
+<div markdown="0"><a href="#" class="btn btn--success">Go back to the Top of the page </a></div>     
+
+ [Info Button Text](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-){: .btn .btn--info}
 
 
 
