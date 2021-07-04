@@ -6,7 +6,7 @@ header:
   overlay_color: "#80aaff              "
   overlay_filter: "0"
   overlay_image: /assets/images/unsplash-image-1.jpg
-excerpt: "Here you will find different series which cover the basic, intermediate and advanced discussion series of Kubernetes technology. I also try to cover a few exam preparation steps in one of the series. "
+excerpt: "Here you will find different series which cover the basic, intermediate and advanced discussion series of Kubernetes technology. I also try to cover a few exam preparation steps in one of the series. "{: style="text-align: justify;"}
 collection: Kubernetes learning series. 
 entries_layout: grid
 classes: wide
