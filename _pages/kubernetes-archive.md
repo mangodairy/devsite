@@ -98,8 +98,8 @@ feature_row2:
 
 1. [ Kubernetes in 7 days? In a week !!](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-) This is the introductory series of Kubernetes. Here we have 7 modules along with the demo. In this, we are going through the Kubernetes architecture, pods, deployment, service, volumes, along with the details of corresponding definition files.  
 2. [Walking through the pods. ](https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--%EF%B8%8F) Here we are going through the details of pods. Verifying details of the pod, analyzing the pod, connecting to the running containers and many more.
-3. [Play with Deployments](Coming soon!) 
-4. [ Journey towards CKAD.](Coming soon!)
+3. [Play with Deployments](Coming soon!) Coming soon!
+4. [ Journey towards CKAD.](Coming soon!) Coming soon!
 ## Kubernetes in 7 days? In a week !!!
 
 Kubernetes in 7 days( Seven modules, **if you do not have time in your day to day work, spent 10 minutes going through this,** so that you will get a basic understanding of Kubernetes in a week time ). The Kubernetes is well documented in [kubernetes.io web site ](https://kubernetes.io/) but it is little difficult for beginners to get through that documentation. I tried my level best to simplify the concept.
