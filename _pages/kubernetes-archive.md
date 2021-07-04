@@ -79,7 +79,7 @@ feature_row:
 feature_row2:
   - image_path: /assets/images/kuberneties/Day1.png
     alt: "placeholder image 1"
-    title: "Pod "
+    title: "Pods "
     excerpt: "In this module, we are covering the basic of Pod."
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
     btn_label: "Read More"
@@ -118,7 +118,7 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 {% include feature_row %}
 
-## Walking through the pods.  🚶🚶🏼🚶🏽🚶🏾‍♂️🚶🏿 
+## Walking through the pods.  🚶🚶
 
 {% include feature_row id="feature_row2" type="left" %} 
 
