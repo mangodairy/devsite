@@ -254,9 +254,6 @@ collections:
   Linux:
     output: true
     permalink: /:collection/:path/
-  Home:
-    output: true
-    permalink: /:collection/:path/
 
 
 
@@ -292,14 +289,6 @@ defaults:
   - scope:
       path: ""
       type: Linux
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _blog
-  - scope:
-      path: ""
-      type: blog
     values:
       layout: single
       author_profile: true
