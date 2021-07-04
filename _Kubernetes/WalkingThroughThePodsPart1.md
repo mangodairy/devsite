@@ -142,7 +142,7 @@ What about the other field metadata and spec? It is specified there but, it is n
 **metadata**  [We will follow the link given in the command output. 🏃🏼](https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata)
 {: style="text-align: justify;"}
 
-As the command output shows, the detailed explanation is available under the given link. But do we need all of those? No, we will take only the required fields from it. 
+The detailed explanation is available under the given link. But do we need all of those? No, we will take only the required fields from it. 
 {: style="text-align: justify;"}
 
 
@@ -157,8 +157,8 @@ kind: Pod
 metadata:
   name: my-first-pod
   labels:
-    type : web
-	env : prod  
+      type : web
+      env : prod  
 ```
 
 {: .notice--success}
