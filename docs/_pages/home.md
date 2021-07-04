@@ -6,12 +6,13 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fas fa-download'></i> About me"
       url: "/docs/quick-start-guide/"
 excerpt: >
   This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. <br />
-  <small><a Latest release v4.23.0</a></small>
+  <small><Hello! I am Rajith</a></small>
 collection: Welcome!
+entries_layout: grid
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
