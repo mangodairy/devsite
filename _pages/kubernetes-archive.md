@@ -10,8 +10,7 @@ excerpt: "Here you will find different series which cover the basic, intermediat
 collection: Kubernetes learning series. 
 entries_layout: grid
 classes: wide
-intro: 
-  - excerpt: 'Test the intro `type="center"`'
+
 feature_row:
   - image_path: /assets/images/kuberneties/Day1.png
     alt: "placeholder image 1"
@@ -109,7 +108,6 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 {: .notice--success}
 {: style="text-align: justify;"}
 
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
