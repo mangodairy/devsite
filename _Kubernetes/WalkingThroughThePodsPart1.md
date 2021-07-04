@@ -186,7 +186,7 @@ metadata:
   labels:
       type : web
       env : prod  
-Spec:
+spec:
     # The container specification section starts here
    containers:
    - name: my-first-pod
