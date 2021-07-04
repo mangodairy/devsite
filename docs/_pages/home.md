@@ -9,6 +9,7 @@ header:
     - label: "<i class='fas fa-download'></i> About me"
       url: "/docs/quick-start-guide/"
 excerpt: >
+  <small>Hello! I am Rajith</small>
   This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. <br />
   <small>Hello! I am Rajith</small>
 collection: Welcome!
