@@ -111,12 +111,4 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 {% include feature_row %}
 
-## Walking through the pods. 
 
-Here we are doing a deep drive in to the pods.
-{: style="text-align: justify;"}
-
-
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row2 %}
