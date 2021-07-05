@@ -84,8 +84,17 @@ feature_row2:
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row2:
+  - image_path: /assets/images/kuberneties/Day2.png
+    alt: "placeholder image 1"
+    title: "Create a Pod "
+    excerpt: "Describe my first pod. 😊"
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart2/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 ---
+
 
 # Kubernetes learning series.
 
