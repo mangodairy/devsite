@@ -84,9 +84,8 @@ feature_row2:
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-	
----
 
+---
 
 # Kubernetes learning series.
 
