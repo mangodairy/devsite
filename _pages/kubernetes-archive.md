@@ -86,7 +86,7 @@ feature_row2:
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/kuberneties/Day2.png
-    alt: "placeholder image 1"
+    alt: "placeholder image 2"
     title: "Create a Pod "
     excerpt: "Describe my first pod. 😊"
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart2/"
