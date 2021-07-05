@@ -25,7 +25,7 @@ toc_sticky: true
 
 ##  Create a Pod 
 
-It covered in the previous series. We will look into it from a different angle. We will use the pod definition file created in the previous module and create a pod.
+It covered in the previous series. We will look into it from a different angle. We will use the pod definition file created in the previous module to create a pod.
 {: style="text-align: justify;"}
 If you do not have any previous experience on the pod, have a look at the previous series[Kubernetes in 7 days? In a week !!!](https://www.rajith.in/Kubernetes/#kubernetes-learning-series) and come back here.[Click here](https://www.rajith.in/Kubernetes/KubernetesPart4_Pods/#creating-a-pod)
 {: style="text-align: justify;"}
@@ -194,7 +194,7 @@ Now it is about the event, the actual part which we thought of discussing here.
 In the event, the first line talks about pod scheduling. 
 * It used the 'default scheduler to schedule the pod. We discussed [scheduler](https://www.rajith.in/Kubernetes/KubernetesPart2/#control-plane-components--master-node-) in our first series, **control plane components.**
 * It says it assigned to node-3.
-How do verify? Yes, we knew that. 
+How do we verify? Yes, we knew that. 
 {: style="text-align: justify;"}
 ```yaml
 rajith@k8s-master:~$ kubectl get pod  -o wide
@@ -208,7 +208,7 @@ It assigned to node-3.
   Normal  Pulling    17s   kubelet            Pulling image "nginx"
   Normal  Pulled     8s    kubelet            Successfully pulled image "nginx" in 8.907628369s
 ``` 
-The next two lines say it is pulling the image "Nginx" from the docker repository. It took 8s to pull the image. 
+The next two lines says, it is pulling the image "Nginx" from the docker repository. It took 8s to pull the image. 
 
 ```yaml
   Normal  Created    8s    kubelet            Created container my-first-pod
