@@ -27,6 +27,13 @@ feature_row:
     url: "https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+  - image_path: /assets/images/Linux/Introdution/Linux.png
+    alt: "fully responsive"
+    title: "Introduction to Linux."
+    excerpt: "What, why, where, when and how is Linux? Here we are not discussing anything about the commands or technology. It is purely a non-technical discussion. If you are already familiar with Linux, you may skip this. "
+    url: "https://www.rajith.in/Linux/1-IntroductionToLinux/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
 {% include feature_row %}
