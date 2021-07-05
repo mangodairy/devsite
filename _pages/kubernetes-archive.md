@@ -84,13 +84,6 @@ feature_row2:
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/kuberneties/Day2.png
-    alt: "placeholder image 2"
-    title: "Kubernetes  Architecture Control Plane Components"
-    excerpt: "In this module, we will play with the master node and the pods running on it."
-    url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 
 ---
 
@@ -119,6 +112,8 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 {% include feature_row %}
 
 ## Walking through the pods.  🚶🚶
+
+Remaining modules will be posted soon.
 
 {% include feature_row id="feature_row2" type="left" %} 
 

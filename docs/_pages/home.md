@@ -20,20 +20,17 @@ feature_row:
     url: "https://rajith.in/Kubernetes/#kubernetes-in-7-days-in-a-week-"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/kuberneties/WalkingThroughThePods.png
     alt: "fully responsive"
     title: "Walking through the pods."
     excerpt: "Here we are going through the details of pods. Analyzing the pod, connecting to the running containers and many more."
     url: "https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
 ---
 
 {% include feature_row %}
+
+\{\% include advertising.html \%\}
+
+
