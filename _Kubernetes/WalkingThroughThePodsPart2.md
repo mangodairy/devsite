@@ -279,7 +279,7 @@ rajith@k8s-master:~$
  {: style="text-align: justify;"}
  
  
- ##  Now let us see some failed events.
+##  Now let us see some failed events.
  
  ```yaml
  rajith@k8s-master:~$ kubectl delete pod my-first-pod 
@@ -397,6 +397,8 @@ rajith@k8s-master:~$
 I manually made the other node non-schedulable. 
 {: style="text-align: justify;"}
 
+
+## Try scheduling it again
 ```yaml
 rajith@k8s-master:~$ kubectl get nodes
 NAME         STATUS                        ROLES                  AGE   VERSION
