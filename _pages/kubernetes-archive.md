@@ -80,7 +80,7 @@ feature_row2:
   - image_path: /assets/images/kuberneties/Pods/Pods-1.png
     alt: "placeholder image 1"
     title: "Pod definition file."
-    excerpt: "Here we will describe the pod, Understand the different sections of it. Go through the events under the different scenarios."
+    excerpt: "In this module, we will go through the basics of pods, understand the structure of pod definition file, different sections under it. "
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
