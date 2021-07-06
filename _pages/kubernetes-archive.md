@@ -98,8 +98,8 @@ feature_row2:
 
 1. [ Kubernetes in 7 days? In a week !!](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-) This is the introductory series of Kubernetes. Here we have 7 modules along with the demo. In this, we are going through the Kubernetes architecture, pods, deployment, service, volumes, along with the details of corresponding definition files.  
 2. [Walking through the pods. ](https://www.rajith.in/Kubernetes/#walking-through-the-pods--) Here we are going through the details of pods. Verifying details of the pod, analyzing the pod, connecting to the running containers and many more.
-3. [Play with Deployments](Coming soon!) Coming soon!
-4. [ Journey towards CKAD.](Coming soon!) Coming soon!
+3. [Play with Deployments](https://www.rajith.in/Kubernetes/#Play-with-Deployments) Coming soon!
+4. [ Journey towards CKAD.](https://www.rajith.in/Kubernetes/#Journey-towards-CKAD) Coming soon!
 ## Kubernetes in 7 days? In a week !!!
 
 Kubernetes in 7 days( Seven modules, **if you do not have time in your day to day work, spent 10 minutes going through this,** so that you will get a basic understanding of Kubernetes in a week time ). The Kubernetes is well documented in [kubernetes.io web site ](https://kubernetes.io/) but it is little difficult for beginners to get through that documentation. I tried my level best to simplify the concept.
@@ -120,8 +120,16 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 ## Walking through the pods.  🚶🚶
 
-Remaining modules will be posted soon.
-
 {% include feature_row id="feature_row2" type="left" %} 
+
+**Remaining modules will be posted soon.**
+
+## Play with Deployments 
+
+**Play with Deployment will be uploaded by the First week of August.**
+
+## Journey towards CKAD
+
+**  Journey towards CKAD will be uploaded by the end of August. **
 
 
