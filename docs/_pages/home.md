@@ -6,9 +6,9 @@ hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> About me"
-      url: "/docs/quick-start-guide/"
+ # actions:
+ #   - label: "<i class='fas fa-download'></i> About me"
+ #     url: "/docs/quick-start-guide/"
 excerpt: >
   Hello! I am Rajith<br />
   <small>This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. </small>
