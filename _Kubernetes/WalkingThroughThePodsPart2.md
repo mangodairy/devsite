@@ -1,15 +1,15 @@
 ---
-title: "Create your First Pod."
-excerpt: "In this module, we will go through the basics of pods and understand the structure of pod definition."
+title: "Describe the Pod and its Events "
+excerpt: "Here we will describe the pod, Understand the different sections of it. Go through the events under the different scenarios."
 header:
   overlay_color: "#80aaff              "
-  teaser: /assets/images/kuberneties/Day4.png
-  excerpt: "Create your First Pod and understand the Pod definition file."
+  teaser: /assets/images/kuberneties/Pods/Pods-2.png
+  excerpt: "Here we will describe the pod, Understand the different sections of it."
   show_overlay_excerpt: false
   show_date: true
 sidebar:
   - title: "Introduction to Kubernetes"
-    image: /assets/images/kuberneties/KubernetesSidebar.png
+    image: /assets/images/kuberneties/Pods/Pods-2.png
     image_alt: "logo"
     text: "Written by"
   - title: "Rajith P"
@@ -27,7 +27,7 @@ toc_sticky: true
 
 Pod creation was covered in the previous series. We will look into it from a different angle. We will use the pod definition file created in the previous module to create a pod.
 {: style="text-align: justify;"}
-If you do not have any previous experience on the pod, have a look at the previous series[Kubernetes in 7 days? In a week !!!  --> Creating Pod](https://www.rajith.in/Kubernetes/KubernetesPart4_Pods/#creating-a-pod) and come back here.
+If you do not have any previous experience on the pod, have a look at the previous series [Kubernetes in 7 days? In a week !!!  --> Creating Pod](https://www.rajith.in/Kubernetes/KubernetesPart4_Pods/#creating-a-pod) and come back here.
 {: style="text-align: justify;"}
 
 

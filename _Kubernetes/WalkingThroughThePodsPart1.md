@@ -1,15 +1,15 @@
 ---
 title: "Pod definition file."
-excerpt: "In this module, we will go through the basics of pods and understand the structure of pod definition."
+excerpt: "In this module, we will go through the basics of pods, understand the structure of pod definition file, different sections under the definition file. "
 header:
   overlay_color: "#80aaff              "
-  teaser: /assets/images/kuberneties/Day4.png
+  teaser: /assets/images/kuberneties/Pods/Pods-1.png
   excerpt: "Understand the Pod definition file."
   show_overlay_excerpt: false
   show_date: true
 sidebar:
   - title: "Walking through the pods"
-    image: /assets/images/kuberneties/KubernetesSidebar.png
+    image: /assets/images/kuberneties/Pods/Pods-1.png
     image_alt: "logo"
     text: "Written by"
   - title: "Rajith P"
