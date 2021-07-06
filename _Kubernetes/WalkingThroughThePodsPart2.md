@@ -25,9 +25,9 @@ toc_sticky: true
 
 ##  Create a Pod 
 
-It covered in the previous series. We will look into it from a different angle. We will use the pod definition file created in the previous module to create a pod.
+Pod creation was covered in the previous series. We will look into it from a different angle. We will use the pod definition file created in the previous module to create a pod.
 {: style="text-align: justify;"}
-If you do not have any previous experience on the pod, have a look at the previous series[Kubernetes in 7 days? In a week !!!](https://www.rajith.in/Kubernetes/#kubernetes-learning-series) and come back here.[Click here](https://www.rajith.in/Kubernetes/KubernetesPart4_Pods/#creating-a-pod)
+If you do not have any previous experience on the pod, have a look at the previous series[Kubernetes in 7 days? In a week !!!  --> Creating Pod](https://www.rajith.in/Kubernetes/KubernetesPart4_Pods/#creating-a-pod) and come back here.
 {: style="text-align: justify;"}
 
 
@@ -57,7 +57,7 @@ NAME           READY   STATUS              RESTARTS   AGE
 my-first-pod   0/1     ContainerCreating   0          8s
 rajith@k8s-master:~$
 ```
-It is containerising. How will we check the details of it? I mean, to see what is happening in the background. 🤔
+It is containerising. How do we check the details of it? I mean, to see what is happening in the background. 🤔
 
 ```yaml
 rajith@k8s-master:~$ kubectl describe pod my-first-pod 
@@ -114,7 +114,7 @@ Events:
   Normal  Started    8s    kubelet            Started container my-first-pod
 rajith@k8s-master:~$ 
 ```
-Yes, the command **kubectl describe pod my-first-pod** give the details of it.
+Yes, the command **kubectl describe pod my-first-pod** give the details.
 
 We will break it down further. 
 
@@ -189,9 +189,9 @@ Events:
   Normal  Created    8s    kubelet            Created container my-first-pod
   Normal  Started    8s    kubelet            Started container my-first-pod
 ```
-Now it is about the event, the actual part which we thought of discussing here. 
+Now it is about the **event,** the actual part which we thought of discussing here. 
 
-In the event, the first line talks about pod scheduling. 
+In the **event,** the first line talks about pod scheduling. 
 * It used the 'default scheduler to schedule the pod. We discussed [scheduler](https://www.rajith.in/Kubernetes/KubernetesPart2/#control-plane-components--master-node-) in our first series, **control plane components.**
 * It says it assigned to node-3.
 How do we verify? Yes, we knew that. 
@@ -221,6 +221,7 @@ That's it, initially by looking at the big output we thought it is rocket scienc
 {: .notice--success}
 {: style="text-align: justify;"}
 
+## let us watch the pod creation output step by step
 
 Now let us see the pod creation output at each step. To facilitate that, I am using a simile for loop with a filtering option in Unix.
 
@@ -399,6 +400,7 @@ I manually made the other node non-schedulable.
 
 
 ## Try scheduling it again
+
 ```yaml
 rajith@k8s-master:~$ kubectl get nodes
 NAME         STATUS                        ROLES                  AGE   VERSION
