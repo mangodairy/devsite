@@ -77,17 +77,17 @@ feature_row:
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: /assets/images/kuberneties/Day1.png
+  - image_path: /assets/images/kuberneties/Pods/Pods-1.png
     alt: "placeholder image 1"
-    title: "Pods "
-    excerpt: "In this module, we are covering the basic of Pod."
+    title: "Pod definition file."
+    excerpt: "Here we will describe the pod, Understand the different sections of it. Go through the events under the different scenarios."
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/kuberneties/Day2.png
+  - image_path: /assets/images/kuberneties/Pods/Pods-2.png
     alt: "placeholder image 2"
-    title:  "Create a Pod"
-    excerpt: "Describe the pod creation and see what is happening in the background. "
+    title:  "Describe the Pod and its Events"
+    excerpt: "Here we will describe the pod, Understand the different sections of it. Go through the events under the different scenarios."
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart2/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -100,6 +100,8 @@ feature_row2:
 2. [Walking through the pods. ](https://www.rajith.in/Kubernetes/#walking-through-the-pods--) Here we are going through the details of pods. Verifying details of the pod, analyzing the pod, connecting to the running containers and many more.
 3. [Play with Deployments](https://www.rajith.in/Kubernetes/#play-with-deployments) Coming soon!
 4. [ Journey towards CKAD.](https://www.rajith.in/Kubernetes/#journey-towards-ckad) Coming soon!
+
+
 # Kubernetes in 7 days? In a week !!!
 
 Kubernetes in 7 days( Seven modules, **if you do not have time in your day to day work, spent 10 minutes going through this,** so that you will get a basic understanding of Kubernetes in a week time ). The Kubernetes is well documented in [kubernetes.io web site ](https://kubernetes.io/) but it is little difficult for beginners to get through that documentation. I tried my level best to simplify the concept.
