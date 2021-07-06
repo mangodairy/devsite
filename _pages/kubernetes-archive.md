@@ -100,7 +100,7 @@ feature_row2:
 2. [Walking through the pods. ](https://www.rajith.in/Kubernetes/#walking-through-the-pods--) Here we are going through the details of pods. Verifying details of the pod, analyzing the pod, connecting to the running containers and many more.
 3. [Play with Deployments](https://www.rajith.in/Kubernetes/#play-with-deployments) Coming soon!
 4. [ Journey towards CKAD.](https://www.rajith.in/Kubernetes/#journey-towards-ckad) Coming soon!
-##Kubernetes in 7 days? In a week !!!
+# Kubernetes in 7 days? In a week !!!
 
 Kubernetes in 7 days( Seven modules, **if you do not have time in your day to day work, spent 10 minutes going through this,** so that you will get a basic understanding of Kubernetes in a week time ). The Kubernetes is well documented in [kubernetes.io web site ](https://kubernetes.io/) but it is little difficult for beginners to get through that documentation. I tried my level best to simplify the concept.
 {: style="text-align: justify;"}
@@ -124,10 +124,10 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 
 **Remaining modules will be posted soon.**
 
-## Play with Deployments 
+# Play with Deployments 
 
 **Play with Deployment will be uploaded by the First week of August.**
 
-## Journey towards CKAD
+# Journey towards CKAD
 
 **Journey towards CKAD will be uploaded by the end of August.**
