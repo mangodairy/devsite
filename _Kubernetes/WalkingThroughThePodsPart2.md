@@ -383,7 +383,7 @@ Now it is failing in the first step itself. It is unable to schedule the pod any
 {: style="text-align: justify;"}
 
 
-Why? Yes, we can not schedule anything on aster node. But what about the other three nodes?
+Why? Yes, we can not schedule anything on master node. But what about the other three nodes?
 {: style="text-align: justify;"}
 ```markdown
 rajith@k8s-master:~$ kubectl get nodes
