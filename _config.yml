@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "My Tech Page"
 title_separator          : "-"
 subtitle                 : "Kubernetes Linux Ansible Docker git .."
-name                     : "Your Name"
+name                     : "Rajith P"
 description              : "My Tech Page..."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : 
