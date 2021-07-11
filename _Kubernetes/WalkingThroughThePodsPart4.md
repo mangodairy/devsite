@@ -557,7 +557,7 @@ Our Nginx welcome page still there?🧐
 {: style="text-align: justify;"}
 
 <figure>
-  <img src="/assets/images/kuberneties/Pods/GetShelltoaRunningContainer-01.png" alt="Image 1">
+  <img src="/assets/images/kuberneties/Pods/GetShelltoaRunningContainer-06.png" alt="Image 1">
   <figcaption>Ohh! everything has gone "403 Forbidden </figcaption>
 </figure>
 
