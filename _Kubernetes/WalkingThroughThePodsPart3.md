@@ -32,13 +32,15 @@ In this module, we will cover,
 First we will see few examples of how to interact with a running container. We will take an Nginx pod for this exercise.
 {: style="text-align: justify;"}
 
-[Lab setup ]https://www.rajith.in/Kubernetes/KubernetesPart6_service-2/#undersrand-the-lab-setup. Here we are using the same lab setup which we used earlier. If you are not familiar, please have a look and come back here. 
+[Lab setup ](https://www.rajith.in/Kubernetes/KubernetesPart6_service-2/#undersrand-the-lab-setup. Here we are using the same lab setup which we used earlier. If you are not familiar, please have a look and come back here. 
 
 ## Create the Nginx pod. 
 
-Pod creation was covered in the [previous series](https://www.rajith.in/Kubernetes/WalkingThroughThePodsPart2/)
+Pod creation was covered in the [previous series](https://www.rajith.in/Kubernetes/WalkingThroughThePodsPart2/).
 {: style="text-align: justify;"}
+
 If you do not have any previous experience on the pod, have a look at the previous series [Kubernetes in 7 days? In a week !!!  --> Creating Pod](https://www.rajith.in/Kubernetes/KubernetesPart4_Pods/#creating-a-pod) and come back here.
+{: .notice--info}
 {: style="text-align: justify;"}
 
 This time we will create the pod with imperative command. 
