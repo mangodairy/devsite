@@ -473,7 +473,10 @@ root@nginx:/usr/share/nginx/html#
 
 The editing with the vi completed successfully.
 
-
+<figure>
+  <img src="/assets/images/kuberneties/Pods/GetShelltoaRunningContainer-05.png" alt="Image 1">
+  <figcaption>Yes, the modification with 'vi' is reflecting now. </figcaption>
+</figure>
 
 ## Run single commands in a container.
 
