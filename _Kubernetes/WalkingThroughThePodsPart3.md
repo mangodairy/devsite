@@ -139,10 +139,6 @@ Let us try few commands inside the container.
 {: style="text-align: justify;"}
 
 ```markdown
-root@nginx:/# uname -a 
-Linux nginx 5.4.0-73-generic #82-Ubuntu SMP Wed Apr 14 17:39:42 UTC 2021 x86_64 GNU/Linux
-root@nginx:/# cat /proc/version
-Linux version 5.4.0-73-generic (buildd@lcy01-amd64-019) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #82-Ubuntu SMP Wed Apr 14 17:39:42 UTC 2021
 root@nginx:/# ls -l 
 total 80
 drwxr-xr-x   2 root root 4096 Jun 21 00:00 bin
@@ -292,7 +288,7 @@ Yes, it is. 🙌🏻
 Now let us try another command.
 {: style="text-align: justify;"}
 ```html
-root@nginx:/usr/share/nginx/html#  echo -e '<html>\n<html>\n\t<body>\n\t\t<h1>Testing file edit with echo</h1>\n\t</body>\n</html>' > /usr/share/nginx/html/index.html
+root@nginx:/usr/share/nginx/html#  echo -e '<html>\n<html>\n\t<body>\n\t\t<h1>Test the file modification with the "echo" command.</h1>\n\t</body>\n</html>' > /usr/share/nginx/html/index.html
 root@nginx:/usr/share/nginx/html# cat /usr/share/nginx/html/index.html
 <html>
 <html>
@@ -309,7 +305,7 @@ Let us see the browser.
 {: style="text-align: justify;"}
 <figure>
   <img src="/assets/images/kuberneties/Pods/GetShelltoaRunningContainer-03.png" alt="Image 1">
-  <figcaption>Content and the Body is changed as we expected. </figcaption>
+  <figcaption>Now it is displaying the output what we gave with echo  </figcaption>
 </figure>
 
 Yes, that also look okay! 👍
@@ -324,12 +320,12 @@ root@nginx:/usr/share/nginx/html# cp index.html.backup index.html
 
 <figure>
   <img src="/assets/images/kuberneties/Pods/GetShelltoaRunningContainer-04.png" alt="Image 1">
-  <figcaption>Content and the Body is changed as we expected. </figcaption>
+  <figcaption>Yes, now  it shows the nginx welcome page. </figcaption>
 </figure>
 
 Yes, it went back to its original state.
 {: style="text-align: justify;"}
-So all these exercises were to play with the shell commands running container.
+So all these exercises were to play with the shell commands on a running container.
 {: style="text-align: justify;"}
 Looks,  some of you are not happy, you need to edit it with 'vi' itself? 
 {: style="text-align: justify;"}
@@ -657,6 +653,7 @@ So far we learned,
 * Get a Shell to a Running Container.
 * Run individual commands in a container.
 * Open a shell when a Pod has more than one container.
+{: style="text-align: justify;"}
 That is it for now. Let us meet again in the next module. 
 {: style="text-align: justify;"}
 
