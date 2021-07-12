@@ -568,7 +568,7 @@ But our command executed successfully. 😀
 
 
 
-### Open a shell in multi-container pods.
+## Open a shell in multi-container pods.
 
 Now let us create a pod with both the Nginx container and the centos container running on it. 
 {: style="text-align: justify;"}

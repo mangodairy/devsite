@@ -91,6 +91,13 @@ feature_row2:
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart2/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Pods/Pods-3.png
+    alt: "placeholder image 3"
+    title:  "Get a Shell to a Running Container"
+    excerpt: "Accessing the Pod. In this module, we will see few examples of how to interact with a running container."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart3/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 ---
 
