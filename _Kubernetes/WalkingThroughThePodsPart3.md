@@ -485,11 +485,12 @@ To run a command,  we no need to login to the container always. Those who are wo
 For example, I am taking the uptime of node-1 by executing the command from the master node. 
 {: style="text-align: justify;"}
 
+```markdown
 rajith@k8s-master:~$ ssh node-1 -q uptime 
 rajith@node-1's password: 
  03:16:26 up 56 min,  0 users,  load average: 0.33, 0.34, 0.24
 rajith@k8s-master:~$ 
-
+```
 
 In the same way, we can run a command on a container from the master node. For this, we will Spinnup and container with centos image.
 {: style="text-align: justify;"}
