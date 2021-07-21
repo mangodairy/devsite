@@ -87,20 +87,23 @@ It took over the market mainly because of the below features.
 Let us dive in a little in-depth,
 {: style="text-align: justify;"}
 
-## What is docker or a microservice? 
+# What is docker or a microservice? 
 
 Kubernetes is a container orchestrator. So what is a container?
 
 Docker itself is another topic. The idea of docker evolved from the shipping industries. It uses the same thought behind cargo containers. We will discuss this in another module. Now let us have a look at it from the viewpoint of Kubernetes.
 {: style="text-align: justify;"}
 
-### The problem faced in the shipping industry.
+## The problem faced in the shipping industry.
 
 <figure>
   <img src="/assets/images/kuberneties/KubernetesForManagers/shipping-industry-problem.png" alt="Image 1">
   <figcaption>image courtesy "container.training" </figcaption>
 </figure>
 
+* Each goods item was treated separately.
+* It consumes lots of time. 
+* The loss and damage of the goods items were higher. 
 
 ### The solution to the problem.
 
@@ -109,9 +112,23 @@ Docker itself is another topic. The idea of docker evolved from the shipping ind
   <figcaption>image courtesy "container.training" </figcaption>
 </figure>
 
+The solution to this problem was containerisation. Goods loaded in standard containers.
+* The standardised container is loaded with all kinds of goods and sealed.
+* Need not worry about how the containers are treated.
+* Can transport quickly and smoothly.
+* All kinds of transport mechanisms like the train, the truck crane can be used.
 
-Docker container is lightweight os instant packed with the application or portal or a database or whatever service you wanted to containerize.
+### How does docker fit into this?
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/DockerWIthmultipleImage.png" alt="Image 1">
+  <figcaption>iHow does docker fit into this</figcaption>
+</figure>
+Docker container is lightweight OS instant packed with the application or portal or a database or whatever service you wanted to containerize.
 {: style="text-align: justify;"}
+
+
+
+
 
 ### Docker and container not the same? 
 Now we used the word docker container!!  Are docker and container not the same? 
