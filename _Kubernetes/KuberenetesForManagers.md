@@ -66,7 +66,7 @@ Kubernetes is an open-source project initiated by Google. They run their infrast
   <figcaption>Shipyard. </figcaption>
 </figure>
 
-In the shipyard, we have cargo ship, controllership,  and container labelling to identify the containers. 
+In the shipyard, we have cargo ship, controllership,  and container registory etc. 
 {: style="text-align: justify;"}
 
 <figure>
@@ -74,7 +74,7 @@ In the shipyard, we have cargo ship, controllership,  and container labelling to
   <figcaption>Kubernetes Architecture</figcaption>
 </figure>
 
-In the same way, we have identified components in the Kubernetes like scheduler, controller manager, worker node...
+In the same way, we have identical components in the Kubernetes like scheduler, controller manager, worker node...
 {: style="text-align: justify;"}
 
 Kubernetes is a container ( microservice ) orchestrator. It automates container-based application deployment. 
@@ -91,7 +91,7 @@ Let us dive in a little in-depth,
 
 Kubernetes is a container orchestrator. So what is a container?
 
-Docker itself is another topic. The idea of docker evolved from the shipping industries. It uses the same thought behind cargo containers. We will discuss this in another module. Now let us have a look at it from the viewpoint of Kubernetes.
+Docker itself is another big topic. The idea of docker evolved from the shipping industries. It uses the same thought behind cargo containers. We will discuss this in another module. Now let us have a look at it from the viewpoint of Kubernetes.
 {: style="text-align: justify;"}
 
 ## The problem faced in the shipping industry.
@@ -164,7 +164,7 @@ Docker container is lightweight OS instant packed with the application or portal
 
 Yes, we did not discuss the docker file. A Dockerfile is a text file that contains all the information needed to build a docker image.
 {: style="text-align: justify;"}
-I* t has information like a base image.
+* It has information like a base image.
 * Information like any additional package needs on this image.
 * Step by step command to assemble the image.
 * Startup commands and arguments which is need during the container start. 
