@@ -121,13 +121,10 @@ The solution to this problem was containerisation. Goods loaded in standard cont
 ### How does docker fit into this?
 <figure>
   <img src="/assets/images/kuberneties/KubernetesForManagers/DockerWIthmultipleImage.png" alt="Image 1">
-  <figcaption>iHow does docker fit into this</figcaption>
+  <figcaption>How does docker fit into this</figcaption>
 </figure>
 Docker container is lightweight OS instant packed with the application or portal or a database or whatever service you wanted to containerize.
 {: style="text-align: justify;"}
-
-
-
 
 
 ### Docker and container not the same? 
@@ -155,7 +152,22 @@ Docker images are read-only templates. If you are familiar with the Vmware templ
 Docker containers are runnable instances of a docker image. It requires CPU, memory and other computing resources to run.
 It is a mini VM. Since it called a microservice may be, we can call it a micro virtual machine :).
 {: style="text-align: justify;"}
+Docker container is lightweight OS instant packed with the application or portal or a database or whatever service you wanted to containerize.
+{: style="text-align: justify;"}
 
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/DockerFileImageContainer.png" alt="Image 1">
+  <figcaption>Docker image and docker container</figcaption>
+</figure>
+
+### What is Dockerfile ? 
+
+Yes, we did not discuss the docker file. A Dockerfile is a text file that contains all the information needed to build a docker image.
+{: style="text-align: justify;"}
+I* t has information like a base image.
+* Information like any additional package needs on this image.
+* Step by step command to assemble the image.
+* Startup commands and arguments which is need during the container start. 
 
 ## Then why Kubernetes is needed here? 
 
