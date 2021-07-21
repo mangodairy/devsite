@@ -70,8 +70,8 @@ In the shipyard, we have cargo ship, controllership,  and container labelling to
 {: style="text-align: justify;"}
 
 <figure>
-  <img src="/assets/images/kuberneties/KubernetesForManagers/KubernetesArchitecture-1.png" alt="Image 1">
-  <figcaption>Shipyard. </figcaption>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/KubernetesArchitecture-2.png" alt="Image 1">
+  <figcaption>Kubernetes Architecture</figcaption>
 </figure>
 
 In the same way, we have identified components in the Kubernetes like scheduler, controller manager, worker node...
