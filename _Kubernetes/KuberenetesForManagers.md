@@ -61,6 +61,22 @@ Kubernetes is an open-source project initiated by Google. They run their infrast
 
 # What is Kubernetes?
 
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/KubernetesArchitecture-1.png" alt="Image 1">
+  <figcaption>Shipyard. </figcaption>
+</figure>
+
+In the shipyard, we have cargo ship, controllership,  and container labelling to identify the containers. 
+{: style="text-align: justify;"}
+
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/KubernetesArchitecture-1.png" alt="Image 1">
+  <figcaption>Shipyard. </figcaption>
+</figure>
+
+In the same way, we have identified components in the Kubernetes like scheduler, controller manager, worker node...
+{: style="text-align: justify;"}
+
 Kubernetes is a container ( microservice ) orchestrator. It automates container-based application deployment. 
 It took over the market mainly because of the below features.
 {: style="text-align: justify;"}
