@@ -11,10 +11,6 @@ sidebar:
   - title: "Kubernetes For Managers"
     image: /assets/images/kuberneties/Pods/Pods-1.png
     image_alt: "logo"
-    text: "Written by"
-  - title: "Rajith P"
-    text: "Introduction to Kubernetes"
-
 tags:
   - table of contents
 toc: true
@@ -185,8 +181,8 @@ Which makes them easy to upgrade and rollback.
 
 If you would like to deep dive into deployment, there are two beginner sessions dedicated to the deployment. However, it is an admin guide.
 
-[ Deployment Demo](https://www.rajith.in/Kubernetes/KubernetesPart5_Deployment-2/)
-[Create your First Deployment](https://www.rajith.in/Kubernetes/KubernetesPart5_Deployment-1/)
+* [ Deployment Demo](https://www.rajith.in/Kubernetes/KubernetesPart5_Deployment-2/)
+* [Create your First Deployment](https://www.rajith.in/Kubernetes/KubernetesPart5_Deployment-1/)
 
 
 ## What are the other benefits of using Kubernetes?
@@ -233,7 +229,7 @@ Kubernetes objects can be created, updated, and deleted by mentioning all the co
 
 The command is as simple this.
 {: style="text-align: justify;"}
-**kubectl -f  <object defenition file >**
+**kubectl -f  <object defenition file >.**
 {: style="text-align: justify;"}
 Now let us go back to the portability.
 {: style="text-align: justify;"}

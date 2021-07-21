@@ -29,9 +29,9 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /assets/images/Linux/Introdution/Linux.png
     alt: "fully responsive"
-    title: "Introduction to Linux."
-    excerpt: "What, why, where, when and how is Linux? Here we are not discussing anything about the commands or technology. It is purely a non-technical discussion. If you are already familiar with Linux, you may skip this. "
-    url: "https://www.rajith.in/Linux/1-IntroductionToLinux/"
+    title: "Kubernetes For Managers."
+    excerpt: "Here we will cover the high-level overview of Kubernetes from a non-technical perspective. This session is not for techies. It's intended for Product managers, project managers, scrum masters or support managers who wish to have a high-level overview of Kubernetes."
+    url: "https://www.rajith.in/Kubernetes/KuberenetesForManagers/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
