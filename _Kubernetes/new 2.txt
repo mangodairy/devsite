@@ -1,0 +1,236 @@
+```markdown
+rajith@k8s-master:~$ ls -lthr  Nginx*
+-rw-rw-r-- 1 rajith rajith 208 Jul  8 17:15 Nginx-service.yaml
+-rw-rw-r-- 1 rajith rajith 372 Jul 14 09:05 NginxPod.yaml
+rajith@k8s-master:~$ 
+```
+```markdown
+rajith@k8s-master:~$ kubectl delete pod nginx 
+pod "nginx" deleted
+rajith@k8s-master:~$ ssh node-1
+rajith@node-1's password: 
+rajith@node-1:~$ sudo su - 
+root@node-1:~# rm -rf /data
+root@node-1:~# logout
+rajith@node-1:~$ logout
+Connection to node-1 closed.
+rajith@k8s-master:~$ kubectl get pods 
+No resources found in default namespace.
+rajith@k8s-master:~$ 
+```
+
+```markdown
+rajith@k8s-master:~$ kubectl delete pod nginx 
+pod "nginx" deleted
+rajith@k8s-master:~$ ssh node-1
+rajith@node-1's password: 
+rajith@node-1:~$ sudo su - 
+root@node-1:~# rm -rf /data
+root@node-1:~# 
+```
+```yaml
+rajith@k8s-master:~$ kubectl create -f NginxWithCentosPod-2.yaml
+pod/nginx created
+rajith@k8s-master:~$ kubectl get pod 
+NAME    READY   STATUS    RESTARTS   AGE
+nginx   2/2     Running   0          9s
+rajith@k8s-master:~$ kubectl describe pod nginx 
+Name:         nginx
+Namespace:    default
+Priority:     0
+Node:         node-1/192.168.50.11
+Start Time:   Thu, 15 Jul 2021 18:19:58 +0000
+Labels:       key=test
+Annotations:  <none>
+Status:       Running
+IP:           10.40.0.2
+IPs:
+  IP:  10.40.0.2
+Containers:
+  nginx:
+    Container ID:   docker://292fc899d5d1912d7e5a8746b1ee323403400513559e26fa8da3f8d342ea87d6
+    Image:          nginx
+    Image ID:       docker-pullable://nginx@sha256:01c2e84120e8c48c32d71f8e3ec15961962c6739e71fe5b95353c4fb0ba5c820
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Thu, 15 Jul 2021 18:20:02 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /usr/share/nginx/html from test-volume (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-4gn2x (ro)
+  centos:
+    Container ID:  docker://b236b6d47c196fe4d1f840fca2161d939bcf9d88d7d20b44d98ffe075f0560d4
+    Image:         centos
+    Image ID:      docker-pullable://centos@sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      curl
+      -OL
+      https://raw.githubusercontent.com/iamrajith/k8s/main/index.html --output > /usr/share/nginx/html/
+      sleep
+      5000
+    State:          Running
+      Started:      Thu, 15 Jul 2021 18:20:05 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /html from test-volume (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-4gn2x (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  test-volume:
+    Type:          HostPath (bare host directory volume)
+    Path:          /data
+    HostPathType:  DirectoryOrCreate
+  kube-api-access-4gn2x:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  17s   default-scheduler  Successfully assigned default/nginx to node-1
+  Normal  Pulling    17s   kubelet            Pulling image "nginx"
+  Normal  Pulled     14s   kubelet            Successfully pulled image "nginx" in 2.993868708s
+  Normal  Created    13s   kubelet            Created container nginx
+  Normal  Started    13s   kubelet            Started container nginx
+  Normal  Pulling    13s   kubelet            Pulling image "centos"
+  Normal  Pulled     11s   kubelet            Successfully pulled image "centos" in 2.76593865s
+  Normal  Created    10s   kubelet            Created container centos
+  Normal  Started    10s   kubelet            Started container centos
+rajith@k8s-master:~$ 
+```
+
+
+
+```yaml
+rajith@k8s-master:~$ kubectl describe pod nginx 
+Name:         nginx
+Namespace:    default
+Priority:     0
+Node:         node-1/192.168.50.11
+Start Time:   Fri, 16 Jul 2021 02:48:25 +0000
+Labels:       key=test
+Annotations:  <none>
+Status:       Running
+IP:           10.40.0.2
+IPs:
+  IP:  10.40.0.2
+Init Containers:
+  centos:
+    Container ID:  docker://2470196976f2e60a0932096cbadc48603f49b56bf234e00f0cba47a8ced148d0
+    Image:         centos
+    Image ID:      docker-pullable://centos@sha256:5528e8b1b1719d34604c87e11dcd1c0a20bedf46e83b5632cdeac91b8c04efc1
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      curl
+      -OL
+      https://raw.githubusercontent.com/iamrajith/k8s/main/index.html
+    State:          Terminated
+      Reason:       Completed
+      Exit Code:    0
+      Started:      Fri, 16 Jul 2021 02:48:29 +0000
+      Finished:     Fri, 16 Jul 2021 02:48:29 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /html from test-volume (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-bs66l (ro)
+Containers:
+  nginx:
+    Container ID:   docker://649b3388628c53c905d0d991ae093346f96e93c15dad9ca2d0efd6a1bc8965be
+    Image:          nginx
+    Image ID:       docker-pullable://nginx@sha256:01c2e84120e8c48c32d71f8e3ec15961962c6739e71fe5b95353c4fb0ba5c820
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Fri, 16 Jul 2021 02:48:32 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /usr/share/nginx/html from test-volume (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-bs66l (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             True 
+  ContainersReady   True 
+  PodScheduled      True 
+Volumes:
+  test-volume:
+    Type:          HostPath (bare host directory volume)
+    Path:          /data
+    HostPathType:  DirectoryOrCreate
+  kube-api-access-bs66l:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  12m   default-scheduler  Successfully assigned default/nginx to node-1
+  Normal  Pulling    12m   kubelet            Pulling image "centos"
+  Normal  Pulled     12m   kubelet            Successfully pulled image "centos" in 3.068905147s
+  Normal  Created    12m   kubelet            Created container centos
+  Normal  Started    12m   kubelet            Started container centos
+  Normal  Pulling    12m   kubelet            Pulling image "nginx"
+  Normal  Pulled     12m   kubelet            Successfully pulled image "nginx" in 2.861252885s
+  Normal  Created    12m   kubelet            Created container nginx
+  Normal  Started    12m   kubelet            Started container nginx
+rajith@k8s-master:~$ 
+```
+
+echo -e '<html>\n<html>\n\t<body>\n\t\t<h1>Created the 'index.html' inside the Volume from the nginx container. </h1>\n\t</body>\n</html>' > /usr/share/nginx/html/index.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:DodgerBlue;">Multi Container Pods.</h1>
+
+<p style="background-color:Tomato;">
+The Pods that run multiple containers that need to work together is called Multi Container pods.  These pods share resources like filesystems and IP addresses. The primary purpose of the multi containers pod is to support helper applications that assist the primary application. 
+</p>
+
+</body>
+</html>
+rajith@node-1:/data$ 
+

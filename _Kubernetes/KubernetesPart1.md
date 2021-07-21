@@ -60,7 +60,7 @@ The reason behind the adoption of Kubernetes is because of the below factors,
 
 ### Speed of deployment
  
-Reduces the wait time minimal time delay between developers hand to Production.
+Reduces the wait time, minimal time delay between developers hand to Production.
 {: style="text-align: justify;"}
 
 ### Quicker upgrade and rollback
