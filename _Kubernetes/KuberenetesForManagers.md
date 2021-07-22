@@ -288,19 +288,38 @@ Let us put it all together.
 {: style="text-align: justify;"}
 Kubernetes has lots of objects like pods, deployment,  cron job, and so on. And the data or information is stored under the volume, persistent volume, config map and secrets. 
 {: style="text-align: justify;"}
-Image 1 
+
+
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/KubernetesObjects.png" alt="Image 1">
+  <figcaption>Kubernetes objects </figcaption>
+</figure>
+
 
 Docker images are the building blocks of Pods. It can be storge in the docker repository. 
 {: style="text-align: justify;"}
-Image 2 
+
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/DockerRegistory.png" alt="Image 1">
+  <figcaption>Docker Registory</figcaption>
+</figure>
 
 The docker images are lightweight it comes in Mbs. ( There are exceptions.)
 {: style="text-align: justify;"}
-Image 3 
+
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/LightWeight.png" alt="Image 1">
+  <figcaption>Docker images are lightweight </figcaption>
+</figure>
 
 All the objects can declare in the object definition file. 
 {: style="text-align: justify;"}
-Image 4 
+
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/FIle.png" alt="Image 1">
+  <figcaption>Object definition file.</figcaption>
+</figure>
+
 
 Ya, we reached there, now the things are easy. Make the Docker repository available to the new setup. 
 {: style="text-align: justify;"}
