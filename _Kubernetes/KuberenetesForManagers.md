@@ -46,7 +46,7 @@ As you already know, the tech world is undergoing a drastic change. If we are no
   <figcaption>So let us get in. </figcaption>
 </figure>
 
-**So let us get in.**
+**Hurry up, let's get into the ship.**
 
 Kubernetes is an open-source project initiated by Google. They run their infrastructure on Kubernetes. Google is well-known for high performing infrastructure. When they made it open-source, everyone in Techworld started looking into it. Now Kubernetes is managed by CNCF. The Cloud Native Computing Foundation is a non-profit organization hosting critical infrastructure projects like,
 {: style="text-align: justify;"}
@@ -177,7 +177,10 @@ That is what the Kubernetes does here.
 
 ## Is that the only solution available to manage the containers? 
 
-Bus train lorry flight 
+<figure>
+  <img src="/assets/images/kuberneties/KubernetesForManagers/DiffrentOptiontoMoveConatiner.png" alt="Image 1">
+  <figcaption>Diffrent options to move the containers </figcaption>
+</figure>
 
 No, there are a few more container orchestrators/clusters available in the market. 
 * Kubernetes
