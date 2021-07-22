@@ -206,14 +206,14 @@ Kubernetes is also known as K8s. The abbreviation k8s came by shrinking the word
 It minimizes the amount of time taken to build, measure, learn cycles. 
 
 <figure>
-  <img src="/assets/images/kuberneties/KubernetesForManagers/shipping-industry-solution.png" alt="Image 1">
+  <img src="/assets/images/kuberneties/KubernetesForManagers/BuildLearnMeasure.png" alt="Image 1">
   <figcaption>image courtesy "container.training" </figcaption>
 </figure>
 
 The product development team does not need to worry about the underlying infrastructure.
 
 <figure>
-  <img src="/assets/images/kuberneties/KubernetesForManagers/shipping-industry-solution.png" alt="Image 1">
+  <img src="/assets/images/kuberneties/KubernetesForManagers/AppLifecycle.png" alt="Image 1">
   <figcaption>image courtesy "container.training" </figcaption>
 </figure>
 
