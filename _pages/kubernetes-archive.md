@@ -28,7 +28,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/kuberneties/Day3.png
     alt: "placeholder image 3"
-    title: "[Kubernetes  Architecture Worker Node Components](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart3/)"
+    title: [Kubernetes  Architecture Worker Node Components](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart3/)
     excerpt: "In this module, we will play with the worker node, pods and the other components running on it."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart3/"
     btn_label: "Read More"
