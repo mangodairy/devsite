@@ -14,7 +14,7 @@ classes: wide
 feature_row:
   - image_path: /assets/images/kuberneties/Day1.png
     alt: "placeholder image 1"
-    title: "[Introduction to Kubernetes](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/)"
+    title: [Introduction to Kubernetes](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/)
     excerpt: "In this module, we are covering the basic structure of Kubernetes."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
     btn_label: "Read More"
