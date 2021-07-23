@@ -61,8 +61,9 @@ feature_row2:
 
 {% include feature_row %}
 
+# Walking through the pods.  🚶🚶
 
-{% include feature_row id="feature_row2" } 
+{% include feature_row id="feature_row2" type="left" %} 
 
 {% include advertising.html %}
 
