@@ -34,9 +34,34 @@ feature_row:
     url: "https://www.rajith.in/Kubernetes/KuberenetesForManagers/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+
+feature_row2:
+  - image_path: /assets/images/kuberneties/Pods/Pods-1.png
+    alt: "placeholder image 1"
+    title: "Pod definition file."
+    excerpt: "In this module, we will go through the basics of pods, understand the structure of pod definition file and the different sections under it. "
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart1/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Pods/Pods-2.png
+    alt: "placeholder image 2"
+    title:  "Describe the Pod and its Events"
+    excerpt: "Here we will describe the pod, Understand the different sections of it. Go through the events under the different scenarios."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart2/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Pods/Pods-3.png
+    alt: "placeholder image 3"
+    title:  "Get a Shell to a Running Container"
+    excerpt: "Accessing the Pod. In this module, we will see few examples of how to interact with a running container."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart3/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row %}
+
+{% include feature_row2 %}
 
 {% include advertising.html %}
 
