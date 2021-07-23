@@ -14,14 +14,14 @@ classes: wide
 feature_row:
   - image_path: /assets/images/kuberneties/Day1.png
     alt: "placeholder image 1"
-    title: [Introduction to Kubernetes](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/")
+    title: [Introduction to Kubernetes](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/)
     excerpt: "In this module, we are covering the basic structure of Kubernetes."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart1/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/kuberneties/Day2.png
     alt: "placeholder image 2"
-    title: "[Kubernetes  Architecture Control Plane Components](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2/)"
+    title: [Kubernetes  Architecture Control Plane Components](https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2/)
     excerpt: "In this module, we will play with the master node and the pods running on it."
     url: "https://mangodairy.github.io/devsite/Kubernetes/KubernetesPart2/"
     btn_label: "Read More"
