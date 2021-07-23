@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes For Managers"
+title: "Kubernetes For Product Managers and Scream Masters."
 excerpt: "Here we will cover the high-level overview of Kubernetes from a non-technical perspective. This session is not for techies. It's intended for Product managers, project managers, scrum masters or support managers who wish to have a high-level overview of Kubernetes."
 header:
   overlay_color: "#80aaff              "
@@ -20,7 +20,7 @@ toc_sticky: true
 ---
 
 
-# Kubernetes For Managers
+# Kubernetes For Product Managers and Scream Masters.
 
 Here we are not going through any in-depth technology. What we are covering is the high-level overview of Kubernetes from a non-technical perspective.
 {: style="text-align: justify;"}
@@ -106,7 +106,7 @@ Docker itself is another big topic. The idea of docker evolved from the shipping
 * It consumes lots of time. 
 * The loss and damage of the goods items were higher. 
 
-### The solution to the problem.
+## The solution to the problem.
 
 <figure>
   <img src="/assets/images/kuberneties/KubernetesForManagers/shipping-industry-solution.png" alt="Image 1">
@@ -119,7 +119,7 @@ The solution to this problem was containerisation. Goods loaded in standard cont
 * Can transport quickly and smoothly.
 * All kinds of transport mechanisms like the train, the truck crane can be used.
 
-### How does docker fit into this?
+## How does docker fit into this?
 <figure>
   <img src="/assets/images/kuberneties/KubernetesForManagers/DockerWIthmultipleImage.png" alt="Image 1">
   <figcaption>How does docker fit into this</figcaption>
@@ -128,7 +128,7 @@ Docker container is lightweight OS instant packed with the application or portal
 {: style="text-align: justify;"}
 
 
-### Docker and container not the same? 
+# Docker and container not the same? 
 Now we used the word docker container!!  Are docker and container not the same? 
 {: style="text-align: justify;"}
 No, it is not! To have a clear understanding, we need to go a little in-depth.
@@ -140,7 +140,7 @@ Don't worry, let us go. It is not rocket science. Here we need to understand,
 {: style="text-align: justify;"}
 
 
-### What is a docker image?
+## What is a docker image?
 Docker images are read-only templates. If you are familiar with the Vmware template, you can relate it to the docker image. It is a mini OS template. Or the docker image is a file. It does not require any computing power ( CPU or memory ). Docker images are available/kept in,
 * Docker hub.
 * Google container registry.
@@ -148,7 +148,7 @@ Docker images are read-only templates. If you are familiar with the Vmware templ
 * In your private registry.
 * Or directly on your system.
 
-### Then what is docker containers?
+## Then what is docker containers?
 
 Docker containers are runnable instances of a docker image. It requires CPU, memory and other computing resources to run.
 It is a mini VM. Since it called a microservice may be, we can call it a micro virtual machine :).
@@ -161,7 +161,7 @@ Docker container is lightweight OS instant packed with the application or portal
   <figcaption>Docker image and docker container</figcaption>
 </figure>
 
-### What is Dockerfile ? 
+## What is Dockerfile ? 
 
 Yes, we did not discuss the docker file. A Dockerfile is a text file that contains all the information needed to build a docker image.
 {: style="text-align: justify;"}
@@ -170,13 +170,13 @@ Yes, we did not discuss the docker file. A Dockerfile is a text file that contai
 * Step by step command to assemble the image.
 * Startup commands and arguments which is need during the container start. 
 
-## Then why Kubernetes is needed here? 
+# Then what is the purpose of  Kubernetes here? 
 
 We will go back to our office. Developers, testers, system administrators, service desk engineers are enough to run the business. But why we managers are needed there? They all are great, but someone should be available to manage and give a vision to them.
 
 That is what the Kubernetes does here.
 
-## Is that the only solution available to manage the containers? 
+# Is that the only solution available to manage the containers? 
 
 <figure>
   <img src="/assets/images/kuberneties/KubernetesForManagers/DiffrentOptiontoMoveConatiner.png" alt="Image 1">
@@ -192,7 +192,7 @@ These are the most commonly used solutions. But Kubernetes is widely adopted in 
 {: style="text-align: justify;"}
 
 
-## But why are techies calling it K8S?
+# Why are techies calling it K8S? 
 
 Kubernetes is also known as K8s. The abbreviation k8s came by shrinking the word Kubernetes. The letter "K" is followed by eight letters and ends with "S".
 * K - ubernete - s
@@ -202,7 +202,7 @@ Kubernetes is also known as K8s. The abbreviation k8s came by shrinking the word
 {: style="text-align: justify;"}
 
 
-## All okay, But why K8S? What makes it unique?
+# Why K8S? What makes it unique?
 
 It minimizes the amount of time taken to build, measure, learn cycles. 
 
@@ -234,7 +234,7 @@ If you would like to deep dive into deployment, there are two beginner sessions 
 * [Create your First Deployment](https://www.rajith.in/Kubernetes/KubernetesPart5_Deployment-1/)
 
 
-## What are the other benefits of using Kubernetes?
+# What are the other benefits of using Kubernetes?
 
 A containerized applications run anywhere. 
 {: style="text-align: justify;"}
