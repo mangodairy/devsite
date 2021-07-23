@@ -3,7 +3,7 @@ title: "Service Demo"
 excerpt: "In this demo, we will expose an Nginx deployment outside the cluster with the help of the ClusterIP service."
 header:
   overlay_color: "#80aaff              "
-  teaser: /assets/images/kuberneties/Day6.png
+  teaser: /assets/images/kuberneties/Day6-Demo.png
   excerpt: "Make the application access to the external world through the Kubernetes service."
   show_overlay_excerpt: false
   show_date: true

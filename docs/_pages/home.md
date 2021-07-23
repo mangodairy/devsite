@@ -13,7 +13,7 @@ excerpt: >
   Hello! I am Rajith<br />
   <small>This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. </small>
 feature_row:
-  - image_path: /assets/images/kuberneties/Day1.png
+  - image_path: /assets/images/kuberneties/Day-First.png
     alt: "customizable"
     title: "Kubernetes in 7 days? In a week !!!"
     excerpt: "This is the introductory series of Kubernetes. Here we have 7 modules along with the demo. In this, we are going through the Kubernetes architecture, pods, deployment, service, volumes, along with the details of corresponding definition files."

@@ -3,7 +3,7 @@ title: "Deployment Demo."
 excerpt: "Here we will play with the deployment. We will create, verify, scale-up, scale down and upgrade.."
 header:
   overlay_color: "#80aaff              "
-  teaser: /assets/images/kuberneties/Day5.png
+  teaser: /assets/images/kuberneties/Day5-Deno.png
   excerpt: "Create your Deployment and understand the Pod definition file."
   show_overlay_excerpt: false
   show_date: true
