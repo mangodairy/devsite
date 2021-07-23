@@ -27,7 +27,7 @@ feature_row:
     url: "https://mangodairy.github.io/devsite/Kubernetes/#walking-through-the-pods--"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/Linux/Introdution/Linux.png
+  - image_path: /assets/images/kuberneties/KubernetesForManagers/KubernetesIn30Minutes.png
     alt: "fully responsive"
     title: "Kubernetes For Managers."
     excerpt: "Here we will cover the high-level overview of Kubernetes from a non-technical perspective. This session is not for techies. It's intended for Product managers, project managers, scrum masters or support managers who wish to have a high-level overview of Kubernetes."

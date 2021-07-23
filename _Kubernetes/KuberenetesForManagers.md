@@ -3,13 +3,13 @@ title: "Kubernetes For Managers"
 excerpt: "Here we will cover the high-level overview of Kubernetes from a non-technical perspective. This session is not for techies. It's intended for Product managers, project managers, scrum masters or support managers who wish to have a high-level overview of Kubernetes."
 header:
   overlay_color: "#80aaff              "
-  teaser: /assets/images/kuberneties/Pods/Pods-1.png
+  teaser: /assets/images/kuberneties/KubernetesForManagers/KubernetesIn30Minutes.png
   excerpt: "Kubernetes For Managers"
   show_overlay_excerpt: false
   show_date: true
 sidebar:
   - title: "Kubernetes For Managers"
-    image: /assets/images/kuberneties/Pods/Pods-1.png
+    image: /assets/images/kuberneties/KubernetesForManagers/KubernetesIn30Minutes.png
     image_alt: "logo"
 tags:
   - table of contents
@@ -18,6 +18,7 @@ toc_label: " "
 toc_icon: "Introduction to Kubernetes"
 toc_sticky: true
 ---
+
 
 # Kubernetes For Managers
 
