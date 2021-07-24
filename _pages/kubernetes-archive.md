@@ -98,6 +98,14 @@ feature_row2:
     url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart3/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: /assets/images/kuberneties/Pods/Pods-4.png
+    alt: "placeholder image 4"
+    title:  "Pod Classifications in Kubernetes"
+    excerpt: "In this module, we will go through the different types of pods available in Kubernetes. Like Single Container Pods, Multi Container Pods, Init Containers and the Static Pod."
+    url: "https://mangodairy.github.io/devsite/Kubernetes/WalkingThroughThePodsPart4/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 
 ---
 
