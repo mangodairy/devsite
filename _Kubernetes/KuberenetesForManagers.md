@@ -20,7 +20,7 @@ toc_sticky: true
 ---
 
 
-# Kubernetes For Product Managers and Scream Masters.
+# Kubernetes For Product Managers and Scrum Masters.
 
 Here we are not going through any in-depth technology. What we are covering is the high-level overview of Kubernetes from a non-technical perspective.
 {: style="text-align: justify;"}
