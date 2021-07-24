@@ -20,7 +20,7 @@ feature_row:
     url: "https://rajith.in/Kubernetes/#kubernetes-in-7-days-in-a-week-"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/kuberneties/WalkingThroughThePods.png
+  - image_path: /assets/images/kuberneties/Pods-First.png
     alt: "fully responsive"
     title: "Walking through the pods."
     excerpt: "Here we are going through the details of pods. Analyzing the pod, connecting to the running containers and many more."
