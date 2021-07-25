@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes For Product Managers and Scream Masters."
+title: "Kubernetes For Product Managers and Scrum Masters."
 excerpt: "Here we will cover the high-level overview of Kubernetes from a non-technical perspective. This session is not for techies. It's intended for Product managers, project managers, scrum masters or support managers who wish to have a high-level overview of Kubernetes."
 header:
   overlay_color: "#80aaff              "
@@ -325,7 +325,7 @@ All the objects can declare in the object definition file.
 Ya, we reached there, now the things are easy. Make the Docker repository available to the new setup. 
 {: style="text-align: justify;"}
 
-Copy past the definition file to the new setup. There are other methods also we are not detailing here.
+Copy paste the definition file to the new setup. There are other methods also we are not detailing here.
 {: style="text-align: justify;"}
 
 
