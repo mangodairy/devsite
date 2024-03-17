@@ -115,6 +115,7 @@ feature_row2:
 2. [Walking through the pods. ](https://www.rajith.in/Kubernetes/#walking-through-the-pods--) Here we are going through the details of pods. Verifying details of the pod, analyzing the pod, connecting to the running containers and many more.
 3. [Play with Deployments](https://www.rajith.in/Kubernetes/#play-with-deployments) Coming soon!
 4. [ Journey towards CKAD.](https://www.rajith.in/Kubernetes/#journey-towards-ckad) Coming soon!
+5. [ Kubernetes Lab ](https://github.com/iamrajith/5-DaysWithKubernetes) In Progress!
 
 
 # Kubernetes in 7 days? In a week !!!
