@@ -113,9 +113,10 @@ feature_row2:
 
 1. [ Kubernetes in 7 days? In a week !!](https://mangodairy.github.io/devsite/Kubernetes/#kubernetes-in-7-days-in-a-week-) This is the introductory series of Kubernetes. Here we have 7 modules along with the demo. In this, we are going through the Kubernetes architecture, pods, deployment, service, volumes, along with the details of corresponding definition files.  
 2. [Walking through the pods. ](https://www.rajith.in/Kubernetes/#walking-through-the-pods--) Here we are going through the details of pods. Verifying details of the pod, analyzing the pod, connecting to the running containers and many more.
-3. [Play with Deployments](https://www.rajith.in/Kubernetes/#play-with-deployments) Coming soon!
-4. [ Journey towards CKAD.](https://www.rajith.in/Kubernetes/#journey-towards-ckad) Coming soon!
-5. [ Kubernetes Lab ](https://github.com/iamrajith/5-DaysWithKubernetes) In Progress!
+3. [Kubernetes Lab, do it yourself ](https://lab.rajith.in/Docker_and_Kubernetes_Lab/) Let us learn by doing ourself.
+4. [Play with Deployments](https://www.rajith.in/Kubernetes/#play-with-deployments) Coming soon!
+5. [ Journey towards CKAD.](https://www.rajith.in/Kubernetes/#journey-towards-ckad) Coming soon!
+6. [ Kubernetes Lab ](https://github.com/iamrajith/5-DaysWithKubernetes) In Progress!
 
 
 # Kubernetes in 7 days? In a week !!!
@@ -139,6 +140,24 @@ I found time to prepare all this documentation by avoiding chat in a few of my f
 # Walking through the pods.  🚶🚶
 
 {% include feature_row id="feature_row2" type="left" %} 
+
+# Kubernetes Lab, do it yourself
+
+Let's explore basic Docker concepts, Kubernetes architecture, pods, deployment, and services by doing ourself.
+
+## Table of Contents
+
+1.  [Exercise Basic Docker Commands](https://lab.rajith.in/Docker_and_Kubernetes_Lab/1-ExerciseBasicDockerCommands.html)
+2.  [Exercise Docker Images](https://lab.rajith.in/Docker_and_Kubernetes_Lab/2-ExerciseDockerImages.html)
+3.  [Exercise Dockerfile](https://lab.rajith.in/Docker_and_Kubernetes_Lab/3-ExerciseDockerfile.html)
+4.  [Explore Kubernetes Control Plane and Worker Node Components](https://lab.rajith.in/Docker_and_Kubernetes_Lab/4-FamiliarsWithKubernetesControlplaneAndWorkernodeComponents.html)
+5.  [Pods Basics and Multi-Container Pods](https://lab.rajith.in/Docker_and_Kubernetes_Lab/5-ExercisePodsBasics.html)
+6.  [Advanced Pod Commands ](https://lab.rajith.in/Docker_and_Kubernetes_Lab/6-ExerciseAdvancedPod.html)
+7.  [Exercise Kubernetes Deployment ](https://lab.rajith.in/Docker_and_Kubernetes_Lab/7-ExerciseKubernetesDeployment.html)
+8.  [Advanced Kubernetes Deployment Exercise](https://lab.rajith.in/Docker_and_Kubernetes_Lab/8-ExerciseRollingUpdateAndrollbacks.html)
+9.  [Kubernetes Services and Endpoint](https://lab.rajith.in/Docker_and_Kubernetes_Lab/9-ExerciseKubernetesServicesandEndpoint.html)
+10. [Lab Exercise: Installing a Kubernetes Cluster](https://lab.rajith.in/Docker_and_Kubernetes_Lab/10-ExerciseInstallingKubernetesCluster.html)
+11. [Setting Up a Kubernetes Cluster: Post-Installation Steps](https://lab.rajith.in/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.html)
 
 **Remaining modules will be posted soon.**
 
