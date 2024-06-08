@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
     - label: "<i class='fas fa-download'></i> About me"
-      url: "https://sites.google.com/view/rajithp/about"
+      url: "https://sites.google.com/view/rajithpamballiyil"
 excerpt: >
   Hello! I am Rajith<br />
   <small>This is a place for people who love to enhance their technical knowledge.Feel free to go through the pages. </small>
